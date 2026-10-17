@@ -1,4 +1,4 @@
-export const orders = [
+export const Orders = [
   {
     id: "#ORD-1001",
     customer: "Rahul Sharma",

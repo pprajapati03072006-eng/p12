@@ -4,10 +4,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import OrdersLayout from "./pages/OrdersLayout";
-import CurrentOrders from "./pages/CurrentOrders";
-import OrderHistory from "./pages/OrderHistory";
-import CancelledOrders from "./pages/CancelledOrders";
+import OrdersLayout from "./Pages/OrdersLayout";
+import CurrentOrders from "./Pages/CurrentOrders";
+import OrderHistory from "./Pages/OrderHistory";
+import CancelledOrders from "./Pages/CancelledOrders";
 
 const router = createBrowserRouter([
   {

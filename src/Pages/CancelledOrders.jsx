@@ -1,5 +1,5 @@
 import { orders } from "../data/orders";
-import OrderCard from "../components/OrderCard";
+import OrderCard from "../Components/OrderCard";
 
 export default function CancelledOrders() {
   const cancelledOrders = orders.filter(

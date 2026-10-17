@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Header from "../components/Header";
-import OrderTabs from "../components/OrderTabs";
+import Header from "../Components/Header";
+import OrderTabs from "../Components/OrderTabs";
 
 export default function OrdersLayout() {
   return (

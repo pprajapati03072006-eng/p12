@@ -1,5 +1,5 @@
 import { orders } from "../data/orders";
-import OrderTable from "../components/OrderTable";
+import OrderTable from "../Components/OrderTable";
 
 export default function CurrentOrders() {
   const currentOrders = orders.filter(

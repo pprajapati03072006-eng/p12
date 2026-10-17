@@ -1,4 +1,4 @@
-import { Orders } from "../data/orders";
+import { orders } from "../data/orders";
 import OrderCard from "../Components/OrderCard";
 
 export default function CancelledOrders() {

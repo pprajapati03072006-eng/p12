@@ -1,8 +1,8 @@
-import { orders } from "../data/orders";
+import { Orders } from "../data/Orders";
 import OrderCard from "../Components/OrderCard";
 
 export default function OrderHistory() {
-  const completedOrders = orders.filter(
+  const completedOrders = Orders.filter(
     (order) => order.type === "history"
   );
 
